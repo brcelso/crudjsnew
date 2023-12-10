@@ -11,7 +11,9 @@ export default function Form(){
 
     const [formData, setFormData] =useReducer(formReducer,{})
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(formData)
 
     }
 
@@ -35,13 +37,13 @@ export default function Form(){
 
             <div className="flex gap-10 items-center ">
             <div className="form-check">
-                <input type="radio" value="Active" id="radioDefault1"name="status" className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-500 checked:border-green-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" placeholder="Email" />
+                <input type="radio" onChange={setFormData} value="Active" id="radioDefault1"name="status" className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-500 checked:border-green-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" placeholder="Email" />
                 <label htmlFor="radioDefault1" className="inline-block tet-gray-8">
                     Active
                 </label>
             </div>
             <div className="form-check">
-                <input type="radio" value="Inactive" id="radioDefault2"name="status" className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-500 checked:border-green-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" placeholder="Email" />
+                <input type="radio" onChange={setFormData} value="Inactive" id="radioDefault2"name="status" className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-500 checked:border-green-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" placeholder="Email" />
                 <label htmlFor="radioDefault2" className="inline-block tet-gray-8">
                     Inactive
                 </label>
