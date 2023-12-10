@@ -15,7 +15,7 @@ export default function Home() {
 
           <div className="left flex gap-3">
             <button className='flex bg-indigo-500 text-white px-4 py-2 border rounded-md'>
-              Add Employee
+              Add Event
             </button>
           </div>
 
