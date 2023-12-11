@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "event": "Olympics",
+        "typeOf": "Sports",
+        "start": "01/07/2024",
+        "end": "31/07/2024",
+        "status": "Active"
+    },
+    {
+        "id":2,
+        "event": "Fifa World Cup",
+        "typeOf": "Sports",
+        "start": "01/07/2026",
+        "end": "31/07/2026",
+        "status": "Active"
+    }
+]
