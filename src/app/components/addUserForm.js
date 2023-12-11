@@ -23,19 +23,19 @@ const handleSubmit = (e) => {
 return (
     <form className="grid lg:grid-cols-2 w-4/6 gap-4 rounded-md" onSubmit={handleSubmit} >
         <div className="input-type">
-            <input type="text" onChange={setFormData} name="event" className="border w-full px-5 py-3 focus:outline-none bg-gray-900 rounded-md" placeholder="Event" />
+            <input type="text" onChange={setFormData} name="event" className="border w-full px-5 py-3 focus:outline-none bg-gray-700 rounded-md" placeholder="Event" />
         </div>
         <div className="input-type">
-            <input type="text" onChange={setFormData} name="typeof" className="border w-full px-5 py-3 focus:outline-none bg-gray-900 rounded-md" placeholder="Type Of" />
+            <input type="text" onChange={setFormData} name="typeof" className="border w-full px-5 py-3 focus:outline-none bg-gray-700 rounded-md" placeholder="Type Of" />
         </div>
         <div className="input-type">
-            <input type="text" onChange={setFormData} name="start" className="border w-full px-5 py-3 focus:outline-none bg-gray-900 rounded-md" placeholder="Start" />
+            <input type="text" onChange={setFormData} name="start" className="border w-full px-5 py-3 focus:outline-none bg-gray-700 rounded-md" placeholder="Start" />
         </div>
         <div className="input-type">
-            <input type="text" onChange={setFormData} name="end" className="border w-full px-5 py-3 focus:outline-none bg-gray-900 rounded-md" placeholder="End" />
+            <input type="text" onChange={setFormData} name="end" className="border w-full px-5 py-3 focus:outline-none bg-gray-700 rounded-md" placeholder="End" />
         </div>
         <div className="input-type">
-            <input type="date" onChange={setFormData} name="date" className="border px-5 py-3 focus:outline-none bg-gray-900 rounded-md" placeholder="Date" />
+            <input type="date" onChange={setFormData} name="date" className="border px-5 py-3 focus:outline-none bg-gray-700 rounded-md" placeholder="Date" />
         </div>
 
         <div className="flex gap-10 items-center ">

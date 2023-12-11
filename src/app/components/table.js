@@ -2,7 +2,7 @@ export default function Table(){
     return (
         <table className="min-w-full table auto rounded-md">
         <thead>
-            <tr className="bg-gray-900">
+            <tr className="bg-gray-500">
                 <th className="px-16 py-2">
                 <span className="text-gray-200">Event</span>
                 </th>
@@ -25,8 +25,8 @@ export default function Table(){
             </tr>
         
         </thead>
-            <tbody className="bg-gray-800">
-                <tr className="bg-gray-800 text-center">
+            <tbody className="bg-gray-500">
+                <tr className="bg-gray-500 text-center">
                     <td className="px-16 py-2 flex flex-row items-center">
                         <img src="#" alt=""/>
                         <span className="text-center ml-2 font-semibold">Test</span>
