@@ -23,12 +23,4 @@ export default async function handler (req,res){
             res.setHeader('Allow', ['GET','POST', 'PUT', 'DELETE']);
             res.status(405).end('Method ${method} Not Allowed')
     }
-
-
-            
-
-
-
-    res.status(200).json({ name:'John Doe'})
 }
-
